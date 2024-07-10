@@ -74,9 +74,13 @@ header nav h1{
 }
 #development{
     margin-top: 63px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 350px;
+    margin-right: 270px;
     padding: 80px 97px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .development-head{
     text-align: center;
@@ -112,10 +116,14 @@ header nav h1{
 .dev-in-button{
     
     padding:12px 20px;
+    cursor:pointer;
 }
 .img{
-    width:40%;
+    width:35%;
     
+}
+.img1, .img3{
+    margin-left: 100px;
 }
 #inspiration{
     width:1140px;
