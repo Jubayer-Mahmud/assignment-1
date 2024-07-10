@@ -251,4 +251,20 @@ footer{
     height:100px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    
+}
+footer h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left:135px;
+}
+.contact-icons{
+    margin-right: 135px;
+}
+.contact-icon{
+    height: 36px;
+    width:36px;
+    margin:5px;
 }
