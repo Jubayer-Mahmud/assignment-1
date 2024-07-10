@@ -73,13 +73,10 @@ header nav h1{
     cursor:pointer;
 }
 #development{
-    margin-top: 63px;
-    margin-left: 350px;
-    margin-right: 270px;
+
+    width:1140px;
+    margin: 0 auto;
     padding: 80px 97px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
 
 }
 .development-head{
@@ -91,6 +88,9 @@ header nav h1{
     font-size: 32px;
     margin-bottom: 30px;
 }
+.container{
+    width:946px;
+}
 
 .dev-cards{
     display:flex;
@@ -98,8 +98,11 @@ header nav h1{
 
 }
 .texts{
-    width:60%;
+    width:477px;
     
+}
+.text1{
+    margin-left:100px;
 }
 .texts h1{
     font-weight: bold;
@@ -119,7 +122,8 @@ header nav h1{
     cursor:pointer;
 }
 .img{
-    width:35%;
+    width:274.17px;
+    height:240px;
     
 }
 .img1, .img3{
